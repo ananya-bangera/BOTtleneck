@@ -17,6 +17,7 @@ class MainChat extends StatelessWidget {
         return MaterialApp(
           debugShowCheckedModeBanner: false,
           title: "BOTtleneck",
+
           themeMode: ThemeMode.system,
           theme: ThemeClass.lightTheme,
           darkTheme: ThemeClass.darkTheme,

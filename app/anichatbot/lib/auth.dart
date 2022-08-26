@@ -1,3 +1,4 @@
+import 'package:anichatbot/pages/chat.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
@@ -86,7 +87,7 @@ class _SignInPageState extends State<SignInPage> {
     final logInButton = Material(
       elevation: 5,
       borderRadius: BorderRadius.circular(30),
-      color: Colors.pink,
+      color: Color.fromRGBO(130, 179, 229, 1),
       child: MaterialButton(
         padding: EdgeInsets.fromLTRB(20, 15, 20, 15),
         minWidth: MediaQuery.of(context).size.width,
@@ -104,7 +105,7 @@ class _SignInPageState extends State<SignInPage> {
     return Scaffold(
       appBar: AppBar(
         title: Text("BOTtleneck"),
-        backgroundColor: Colors.pink,
+        backgroundColor: Color.fromRGBO(130, 179, 229, 1),
       ),
       body: Center(
         child: SingleChildScrollView(
@@ -164,7 +165,7 @@ class _SignInPageState extends State<SignInPage> {
           .then((uid) => {
                 Fluttertoast.showToast(msg: "Login Successful"),
                 Navigator.of(context).pushReplacement(
-                    MaterialPageRoute(builder: (context) => Container()))
+                    MaterialPageRoute(builder: (context) => Chat()))
               })
           .catchError((e) {
         Fluttertoast.showToast(msg: e!.message);

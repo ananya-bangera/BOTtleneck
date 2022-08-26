@@ -1,3 +1,4 @@
+import 'package:anichatbot/pages/chat.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
@@ -165,7 +166,7 @@ class _RegisterationScreenState extends State<RegisterationScreen> {
     final signUpButton = Material(
       elevation: 5,
       borderRadius: BorderRadius.circular(30),
-      color: Colors.pink,
+      color: Color.fromRGBO(130, 179, 229, 1),
       child: MaterialButton(
         padding: EdgeInsets.fromLTRB(20, 15, 20, 15),
         minWidth: MediaQuery.of(context).size.width,
@@ -183,7 +184,7 @@ class _RegisterationScreenState extends State<RegisterationScreen> {
     final gotoLogin = Material(
       elevation: 5,
       borderRadius: BorderRadius.circular(30),
-      color: Colors.pink,
+      color: Color.fromRGBO(130, 179, 229, 1),
       child: MaterialButton(
         padding: EdgeInsets.fromLTRB(20, 15, 20, 15),
         minWidth: MediaQuery.of(context).size.width,
@@ -205,7 +206,7 @@ class _RegisterationScreenState extends State<RegisterationScreen> {
     return Scaffold(
       appBar: AppBar(
         title: Text("BOTtleneck"),
-        backgroundColor: Colors.pink,
+        backgroundColor: Color.fromRGBO(130, 179, 229, 1),
       ),
       body: Center(
         child: SingleChildScrollView(
@@ -307,6 +308,6 @@ class _RegisterationScreenState extends State<RegisterationScreen> {
 
     Fluttertoast.showToast(msg: "Account created successfully :)");
     Navigator.pushAndRemoveUntil((context),
-        MaterialPageRoute(builder: (context) => Container()), (route) => false);
+        MaterialPageRoute(builder: (context) => Chat()), (route) => false);
   }
 }
