@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">559601444085-4p1i0lj73snb7atirnpm6cghl2obllk9.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">559601444085</string>
+    <string name="google_api_key" translatable="false">AIzaSyA6Dj5Ekk4xLbCo2qh3zp1Nn8osAlUFJTM</string>
+    <string name="google_app_id" translatable="false">1:559601444085:android:a81c18bbefe0d66fddd1bc</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyA6Dj5Ekk4xLbCo2qh3zp1Nn8osAlUFJTM</string>
+    <string name="google_storage_bucket" translatable="false">chatbot-a19a2.appspot.com</string>
+    <string name="project_id" translatable="false">chatbot-a19a2</string>
+</resources>

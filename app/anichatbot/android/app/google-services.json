@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "559601444085",
+    "project_id": "chatbot-a19a2",
+    "storage_bucket": "chatbot-a19a2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:559601444085:android:a81c18bbefe0d66fddd1bc",
+        "android_client_info": {
+          "package_name": "com.example.anichatbot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "559601444085-4p1i0lj73snb7atirnpm6cghl2obllk9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6Dj5Ekk4xLbCo2qh3zp1Nn8osAlUFJTM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "559601444085-4p1i0lj73snb7atirnpm6cghl2obllk9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
