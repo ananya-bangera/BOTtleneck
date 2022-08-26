@@ -1,6 +1,7 @@
 import 'package:anichatbot/intro_screens/introPage1.dart';
 import 'package:anichatbot/intro_screens/introPage2.dart';
 import 'package:anichatbot/intro_screens/introPage3.dart';
+import 'package:anichatbot/registration.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
@@ -49,7 +50,7 @@ class _onBoardingScreenState extends State<onBoardingScreen> {
                         ? (() {
                             Navigator.push(context,
                                 MaterialPageRoute(builder: (context) {
-                              return Container();
+                              return RegisterationScreen();
                             }));
                           })
                         : (() {

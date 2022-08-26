@@ -1,4 +1,4 @@
-import 'package:anichatbot/onBoradingScreen.dart';
+import 'package:anichatbot/onBoardingScreen.dart';
 import 'package:anichatbot/provider/messageProvider.dart';
 // import 'package:anichatbot/pages/chat.dart';
 import 'package:flutter/material.dart';
