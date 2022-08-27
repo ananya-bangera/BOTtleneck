@@ -71,7 +71,8 @@ For Website:
 
 
 ## 🔮Future Scope
-Developing Chatbots for various sectors like Universities, Market
+- Developing Chatbots for various sectors like Universities, Market
+- Multilingual Platform
 
 ## 🛠Project Setup
 Clone the GitHub repo git clone https://github.com/ananya-bangera/BOTtleneck
