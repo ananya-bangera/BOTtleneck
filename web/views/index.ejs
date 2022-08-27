@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Runtime Terror" />
+    <meta name="description" content="A chatbot website" />
+    <meta property="og:title" content="BOTez: best chatbot provider" />
+    <meta property="og:image" content="" />
+    <meta
+      property="og:description"
+      content="a chatbot website which solves real world problem"
+    />
+    <meta name="twitter:title" content="MInews: a news website" />
+    <!-- <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="images/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="42x42"
+      href="images/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="images/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="images/favicon/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="images/favicon/safari-pinned-tab.svg"
+      color="#5bbad5"
+    /> -->
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="stylesheet" href="stylesheets/index.css" />
+    <script src="scripts/index.js" defer></script>
+    <title>Chatbot</title>
+    <script src="https://friconix.com/cdn/friconix.js"></script>
+  </head>
+  <body>
+    <div class="background"></div>
+    <header>
+      <ul>
+        <li><h1>BOTtleneck</h1></li>
+        <li><a href="/">Home</a></li>
+        <li><a href="/guide">Guide</a></li>
+        <li><a href="/contact">Contact Us</a></li>
+      </ul>
+    </header>
+    <main>
+      <div class="top">
+        <div class="left">
+          <div class="aim">
+            <h2>What We Do?</h2>
+            <p>
+              We create chat bots to solve real life problems. We develop custom
+              chatbot as per the need of client. Our aim is to reduce human
+              efforts and provide them with the best facilities using chatbots.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat
+              atque consectetur dolore sit quibusdam quam minus tempora
+              eligendi. Soluta, animi.
+            </p>
+          </div>
+          <div class="log">
+            <a href="/login">
+              <% if( logged === true ){ %>
+              <button id="login">LogOut</button>
+              <% } else { %>
+              <button id="login">LogIn</button>
+              <% } %>
+            </a>
+            <a href="/register">
+              <button id="register">Register</button>
+            </a>
+          </div>
+        </div>
+        <div class="right">
+          <% if(username != undefined) { %>
+          <h2>Hello <%= username %></h2>
+          <% } else {%>
+          <h2>Hello Visitor</h2>
+          <% }%>
+          <img src="images/chatbot.jfif" alt="" />
+        </div>
+      </div>
+      <div class="cards">
+        <div>
+          <a href="">
+            <h3>Hospital</h3>
+            <p>
+              A chatbot to manage a hospital and assign doctors to patients with
+              schedule.
+            </p>
+            <div class="icon">
+              <i class="fi-xnsuxl-female-nurse-solid"></i></div
+          ></a>
+        </div>
+        <div>
+          <a href="/bots/restaurant">
+            <h3>Restaurant</h3>
+            <p>
+              A chatbot to recommend dishes to customers, alternatives of a
+              particular dish, placing the order.
+            </p>
+            <div class="icon">
+              <i class="fi-xnsuxl-house-solid"></i>
+            </div>
+          </a>
+        </div>
+        <div>
+          <a href="">
+            <h3>University</h3>
+            <p>
+              A chatbot to answer students' queries. storing information about
+              school events and holidays.
+            </p>
+            <div class="icon">
+              <i
+                class="fi-xtsuxl-graduation-cap-solid"
+                style="font-size: 60px"
+              ></i>
+            </div>
+          </a>
+        </div>
+      </div>
+      <h2 class="workhead">Currently We Are Working On</h2>
+      <div class="work">
+        <div class="cards">
+          <div>
+            <h3>Banks</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptates doloremque, molestiae suscipit ipsum ex eveniet!
+            </p>
+            <div class="icon">
+              <i class="fi-xnsuxl-bank-solid"></i>
+            </div>
+          </div>
+          <div>
+            <h3>Shops</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptates doloremque, molestiae suscipit ipsum ex eveniet!
+            </p>
+            <div class="icon">
+              <i class="fi-xwsuhl-shopping-cart-solid"></i>
+            </div>
+          </div>
+          <div>
+            <h3>Ticket Booking</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptates doloremque, molestiae suscipit ipsum ex eveniet!
+            </p>
+            <div class="icon">
+              <i class="fi-xnsuxl-dot-ticket-purchase"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="foot">
+        <div class="1">
+          <h3>Users of our product</h3>
+          <hr />
+          <ul>
+            <li>Hospitals</li>
+            <li>Hotels</li>
+            <li>Universities</li>
+            <li>Others</li>
+          </ul>
+        </div>
+        <div class="2">
+          <h3>connect with us</h3>
+          <hr />
+          <ul>
+            <li><i class="fi-xnsuxl-linkedin"></i> LinkedIn</li>
+            <li><i class="fi-xnsuxl-instagram"></i> Instagram</li>
+            <li><i class="fi-xnsuxl-facebook"></i> Facebook</li>
+            <li><i class="fi-xnsuxl-twitter-solid"></i> Twitter</li>
+          </ul>
+        </div>
+        <div class="3"></div>
+      </div>
+      <p>&copy;Copyright 2022, Bottleneck private limited</p>
+    </footer>
+  </body>
+</html>
