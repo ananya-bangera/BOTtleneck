@@ -66,7 +66,7 @@ For Website:
 - Landing Page
 - Authentication
 - Chatbot Feature  
-
+Here, after finishing with the authentication. The user can have an interaction with the chatbot. Here the chatbot helps the user by filtering the restauarnt menu, according to the taste, dish name, type, place, price and ratings. After filtering the data its displayed by the bot as the output. The user queries are being processed and then further the output to these queries are displayed.
 
 
 ## 🔮Future Scope
