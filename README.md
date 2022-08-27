@@ -45,12 +45,15 @@
 - [Video]()
 
 ## 🤖Tech-Stack
-<a href="https://expressjs.com/" title="Express"><img src="https://github.com/get-icon/geticon/blob/master/icons/express.svg" alt="Express" width="45px" height="45px"/></a>
-<a href="https://flask.palletsprojects.com/en/2.0.x/" title="NodeJS"><img src="https://github.com/get-icon/geticon/blob/master/icons/nodejs.svg" alt="NodeJS" width="31px" height="31px"></a>
-<a href="https://www.w3.org/TR/html5/" title="HTML5"><img src="https://github.com/get-icon/geticon/raw/master/icons/html-5.svg" alt="HTML5" width="31px" height="31px"></a>
-<a href="https://www.w3.org/TR/CSS/" title="CSS3"><img src="https://github.com/get-icon/geticon/raw/master/icons/css-3.svg" alt="CSS3" width="31px" height="31px"></a>
-<a href="https://tailwindcss.com/" title="Tailwind"><img src="https://github.com/get-icon/geticon/blob/master/icons/tailwindcss-icon.svg" alt="Tailwind" width="31px" height="31px"></a>
-<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" title="JavaScript"><img src="https://github.com/get-icon/geticon/raw/master/icons/javascript.svg" alt="JavaScript" width="31px" height="31px"></a>
+<a href="https://expressjs.com/" title="Express"><img src="https://github.com/get-icon/geticon/blob/master/icons/express.svg" alt="Express" height="45px"/></a>
+<a href="https://nodejs.org/en/" title="NodeJS"><img src="https://github.com/get-icon/geticon/blob/master/icons/nodejs.svg" alt="NodeJS"  height="45px"></a>
+<a href="https://www.w3.org/TR/html5/" title="HTML5"><img src="https://github.com/get-icon/geticon/raw/master/icons/html-5.svg" alt="HTML5" width="45px" height="45px"></a>
+<a href="https://www.w3.org/TR/CSS/" title="CSS3"><img src="https://github.com/get-icon/geticon/raw/master/icons/css-3.svg" alt="CSS3" width="45px" height="45px"></a>
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" title="JavaScript"><img src="https://github.com/get-icon/geticon/raw/master/icons/javascript.svg" alt="JavaScript" width="45px" height="45px"></a>
+<a href="https://flutter.dev/" title="Flutter"><img src="https://github.com/get-icon/geticon/blob/master/icons/flutter.svg" alt="Flutter" width="45px" height="45px"></a>
+<a href="https://dart.dev/" title="Dart"><img src="https://github.com/get-icon/geticon/blob/master/icons/dart.svg" alt="Dart" width="45px" height="45px"></a>
+<a href="https://firebase.google.com/" title="Firebase"><img src="https://github.com/get-icon/geticon/blob/master/icons/firebase.svg" alt="Firebase" width="45px" height="45px"></a>
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" title="SQLite"><img src="https://github.com/ananya-bangera/BOTtleneck/blob/main/images/SQLite.png" alt="SQLite" height="45px"></a>
 
 ## 📈Progress
 
