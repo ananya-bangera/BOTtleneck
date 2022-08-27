@@ -41,7 +41,7 @@
   
 ## 🔗Resources
 - [GitHub Repo](https://github.com/ananya-bangera/BOTtleneck)
-- [Video]()
+- [Video](https://www.youtube.com/watch?v=yA7D9WKoko0)
 
 ## 🤖Tech-Stack
 <a href="https://expressjs.com/" title="Express"><img src="https://github.com/get-icon/geticon/blob/master/icons/express.svg" alt="Express" height="45px"/></a>
