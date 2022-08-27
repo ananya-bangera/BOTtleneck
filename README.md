@@ -155,9 +155,9 @@ Team DCodeStarBots
      <td><b>Home Page 3 </b></td>
   </tr>
   <tr>
-    <td><img src="images/Home.jpg" width="250" /></td>
-    <td><img src="images/Home2.jpg" width="250" /></td>
-    <td><img src="images/Home3.jpg" width="250" /></td>
+    <td><img src="images/Home.jpg" width="450" /></td>
+    <td><img src="images/Home2.jpg" width="450" /></td>
+    <td><img src="images/Home3.jpg" width="450" /></td>
   </tr>
  </table>
  <br>
@@ -173,8 +173,8 @@ Team DCodeStarBots
      <td><b>Login </b></td>
   </tr>
   <tr>
-    <td><img src="images/RegisterWeb.jpg" width="250" /></td>
-    <td><img src="images/LoginWeb.jpg" width="250" /></td>
+    <td><img src="images/RegisterWeb.jpg" width="450" /></td>
+    <td><img src="images/LoginWeb.jpg" width="450" /></td>
   </tr>
  </table>
  <br>
@@ -189,7 +189,7 @@ Team DCodeStarBots
     <td><b>Chatting</b></td>
   </tr>
   <tr>
-    <td><img src="images/ChatWeb.jpg" width="250" /></td>
+    <td><img src="images/ChatWeb.jpg" width="450" /></td>
   </tr>
  </table>
  <br>
