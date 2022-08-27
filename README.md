@@ -17,19 +17,19 @@
 <details>
 <summary>Table of Contents</summary>
 
-- [Description](#description)
-- [Links](#links)
-- [Tech Stack](#tech-stack)
-- [Progress](#progress)
-- [Future Scope](#future-scope)
-- [Database Schema](#database-schema)
-- [Project Setup](#project-setup)
-- [Usage](#usage)
-- [Contributors](#contributors)
+- [📰Description](#description)
+- [🔗Resources](#resources)
+- [🤖Tech-Stack](#tech-stack)
+- [📈Progress](#progress)
+- [🔮Future Scope](#future-scope)
+- [🛠Project Setup](#project-setup)
+- [⚙Usage](#usage)
+- [👨‍💻Contributors](#contributors)
+- [📱Screenshots](#screenshots)
 
 </details>
 
-## 📝Description
+## 📰Description
 
 <table>
   <tr>
@@ -39,8 +39,7 @@
   </tr>
   </table>
   
-## 🔗Links
-
+## 🔗Resources
 - [GitHub Repo](https://github.com/ananya-bangera/BOTtleneck)
 - [Video]()
 
@@ -94,3 +93,108 @@ Team DCodeStarBots
 2. [Ananya Bangera](https://github.com/ananya-bangera)
 3. [Harsh Nag](https://github.com/Jigsaw-23122002)
 4. [Vaibhav Patel](https://github.com/noobCoderVP)
+
+## 📱Screenshots
+<p align="middle">
+   <br>
+<table>
+  <tr>
+    <td><b>Introduction Screen 1 </b></td>
+     <td><b>Introduction Screen 2 </b></td>
+     <td><b>Introduction Screen 3 </b></td>
+  </tr>
+  <tr>
+    <td> <img src="images/IntroScreen1.jpeg" width="250" /></td>
+    <td><img src="images/IntroScreen2.jpeg" width="250" /></td>
+    <td><img src="images/IntroScreen3.jpeg" width="250" /></td>
+  </tr>
+ </table>
+ <br>
+
+<br>
+<b></b>
+ <br>
+    <br>
+<table>
+  <tr>
+    <td><b>Register</b></td>
+     <td><b>Login </b></td>
+  </tr>
+  <tr>
+    <td> <img src="images/Register.jpeg" width="250" /></td>
+    <td><img src="images/Login.jpg" width="250" /></td>
+  </tr>
+ </table>
+ <br>
+
+<br>
+<b></b>
+ <br>
+    <br>
+<table>
+  <tr>
+    <td><b>Chatting Page 1</b></td>
+     <td><b>Chatting Page 2 </b></td>
+  </tr>
+  <tr>
+    <td><img src="images/Chat1.jpg" width="250" /></td>
+    <td><img src="images/Chat2.jpg" width="250" /></td>
+  </tr>
+ </table>
+ <br>
+
+<br>
+<b></b>
+ <br>
+  <br>
+    <br>
+<table>
+  <tr>
+    <td><b>Home Page 1</b></td>
+     <td><b>Home Page 2 </b></td>
+     <td><b>Home Page 3 </b></td>
+  </tr>
+  <tr>
+    <td><img src="images/Home.jpg" width="250" /></td>
+    <td><img src="images/Home2.jpg" width="250" /></td>
+    <td><img src="images/Home3.jpg" width="250" /></td>
+  </tr>
+ </table>
+ <br>
+
+<br>
+<b></b>
+ <br>
+  <br>
+    <br>
+<table>
+  <tr>
+    <td><b>Register</b></td>
+     <td><b>Login </b></td>
+  </tr>
+  <tr>
+    <td><img src="images/RegisterWeb.jpg" width="250" /></td>
+    <td><img src="images/LoginWeb.jpg" width="250" /></td>
+  </tr>
+ </table>
+ <br>
+
+<br>
+<b></b>
+ <br>
+  <br>
+    <br>
+<table>
+  <tr>
+    <td><b>Chatting</b></td>
+  </tr>
+  <tr>
+    <td><img src="images/ChatWeb.jpg" width="250" /></td>
+  </tr>
+ </table>
+ <br>
+
+<br>
+<b></b>
+ 
+
