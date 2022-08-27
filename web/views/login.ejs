@@ -104,10 +104,12 @@
         z-index: -1;
         padding: 10px;
       }
+      .error {
+        display: none;
+      }
     </style>
   </head>
   <body>
-    <div class="background"></div>
     <%- include('partials/header.ejs') %>
     <main>
       <span class="error"> Invalid Credentials </span>
@@ -116,7 +118,7 @@
         <fieldset>
           <legend>Credentials</legend>
           <label for="username">Username</label>
-          <input type="text" id="username" name="username" />
+          <input type="text" id="username" name="username" autofocus />
           <label for="password">Password</label>
           <input type="password" id="password" name="password" />
         </fieldset>

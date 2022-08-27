@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Runtime Terror" />
+    <meta name="description" content="A chatbot website" />
+    <meta property="og:title" content="BOTez: best chatbot provider" />
+    <meta property="og:image" content="" />
+    <meta
+      property="og:description"
+      content="a chatbot website which solves real world problem"
+    />
+    <meta name="twitter:title" content="MInews: a news website" />
+    <!-- <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="images/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="42x42"
+      href="images/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="images/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="images/favicon/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="images/favicon/safari-pinned-tab.svg"
+      color="#5bbad5"
+    /> -->
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="stylesheet" href="stylesheets/main.css" />
+    <script src="scripts/index.js" defer></script>
+    <title>Chatbot</title>
+    <script src="https://friconix.com/cdn/friconix.js"></script>
+    <style>
+      h2 {
+        text-align: center;
+        width: fit-content;
+        margin: 10px auto;
+        padding: 10px;
+        background-color: antiquewhite;
+        color: black;
+      }
+      img {
+        display: block;
+        margin: auto auto;
+        max-height: 500px;
+      }
+    </style>
+  </head>
+  <body>
+    <%- include('partials/header.ejs') %>
+    <main>
+      <h2>NAVIGATION FLOW CHART</h2>
+      <img src="images/flow1.jpeg" alt="" class="flowchart" />
+      <h2>ML MODEL FOR CLASSIFYING USER INPUT</h2>
+      <img src="images/flow2.jpeg" alt="" class="flowchart" />
+      <!-- main content here -->
+    </main>
+    <%- include('partials/footer.ejs') %>
+  </body>
+</html>

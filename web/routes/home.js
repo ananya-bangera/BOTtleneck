@@ -91,7 +91,7 @@ homeRouter.post("/login", (req, res) => {
           res.redirect("/");
         } else {
           const result = { invalid: true };
-          res.render("/login", result);
+          res.render("login.ejs", result);
         }
       }
     );

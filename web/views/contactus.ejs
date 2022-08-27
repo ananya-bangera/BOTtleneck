@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Runtime Terror" />
+    <meta name="description" content="A chatbot website" />
+    <meta property="og:title" content="BOTez: best chatbot provider" />
+    <meta property="og:image" content="" />
+    <meta
+      property="og:description"
+      content="a chatbot website which solves real world problem"
+    />
+    <meta name="twitter:title" content="MInews: a news website" />
+    <!-- <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="images/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="42x42"
+      href="images/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="images/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="images/favicon/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="images/favicon/safari-pinned-tab.svg"
+      color="#5bbad5"
+    /> -->
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="stylesheet" href="stylesheets/main.css" />
+    <script src="scripts/index.js" defer></script>
+    <title>Chatbot</title>
+    <script src="https://friconix.com/cdn/friconix.js"></script>
+    <style>
+      main {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-wrap: wrap;
+        color: white;
+      }
+      label {
+        color: white;
+        display: block;
+        font-size: 1.1rem;
+        margin-top: 15px;
+        margin-bottom: 5px;
+      }
+      form {
+        margin-top: 20px;
+        width: 30%;
+        background-color: black;
+        color: aqua;
+        padding: 20px;
+        box-shadow: 0px 2px 15px 0px whitesmoke;
+      }
+      fieldset {
+        padding: 20px;
+      }
+      legend {
+        color: aqua;
+        font-size: 1.5rem;
+      }
+      input {
+        display: block;
+        padding: 5px;
+        outline: none;
+        min-width: 300px;
+      }
+      textarea {
+        min-width: 300px;
+        outline: none;
+        padding: 10px;
+        font-size: 1.1rem;
+      }
+      input:focus {
+        background-color: antiquewhite;
+        box-shadow: inset 1px 1px 5px 0px grey;
+      }
+      form button {
+        display: block;
+        margin: auto;
+        margin-top: 20px;
+        font-size: 1.3rem;
+        padding: 5px 10px;
+        background-color: blue;
+        border: none;
+        color: white;
+      }
+      form button:hover {
+        box-shadow: 0px 2px 15px 0px rgb(90, 90, 255);
+      }
+      span {
+        display: inline-block;
+        position: absolute;
+        top: 20%;
+        right: 10%;
+        background-color: red;
+        color: white;
+        display: hidden;
+        z-index: -1;
+        padding: 10px;
+      }
+      .error {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <%- include('partials/header.ejs') %>
+    <main>
+      <span class="error"> Invalid Credentials </span>
+      <!-- main content here -->
+      <form action="/contact/email" method="POST">
+        <fieldset>
+          <legend>Contact</legend>
+          <label for="username">Username</label>
+          <input type="text" id="username" name="username" required autofocus />
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" required />
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required />
+          <label for="query"> Enter your query: </label>
+          <textarea
+            name="query"
+            id="query"
+            cols="30"
+            rows="10"
+            required
+          ></textarea>
+        </fieldset>
+        <button type="submit">Email</button>
+      </form>
+    </main>
+    <%- include('partials/footer.ejs') %>
+  </body>
+</html>
