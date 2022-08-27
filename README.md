@@ -56,82 +56,26 @@
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" title="SQLite"><img src="https://github.com/ananya-bangera/BOTtleneck/blob/main/images/SQLite.png" alt="SQLite" height="45px"></a>
 
 ## 📈Progress
+For Mobile Application:
+- Introduction Screens
+- Authentication
+- Chatbot Feature  
 
-3 Access Levels
-- [x] Student
-- [x] Organizer
-- [x] Sponsor
+First, the user needs to authenticate himself to the system via his/her email. Then he would be taken to the chatbot feature tab. Here the mobile application is an implementation of a hospital chatbot. This chatbot assists the user to diagnose the disease. Now the users are being asked about the symptoms of a specific disease. The user response in each case is being stored. After finishing the set of questions, the chatbot would try to find the matching symptoms with the available diseases in the database and communicate the same to the user. Then finally the user will be asked to enter a preferable time. The bot would provide the names and availability of the physicians according to the user's suitable time period.
 
-Organizer
-- [x] Host an event (science exhibition, quiz competition, seminar)
-- [x] Call for applicants to the event
-- [x] Contact sponsors for sponsoring their events
+For Website:
+- Landing Page
+- Authentication
+- Chatbot Feature  
 
-Student
-- [x] Public Profile with basic details
-- [x] Add and display projects on the profile, share the projects publicly
-- [x] Apply to events
-- [x] Search like-minded peers based on interests specified during registration
-- [x] Make teams for events
-- [x] Messaging Inbox for contacting 
-- [x] Browse a timeline to search for like-minded peers, view projects from other students, like and share them
 
-Project
-- [x] Add project description with images
-- [x] Add external videos
-- [x] Share your projects to your friends, teachers and parents
-- [x] Likes and comments on the project
-
-Event
-- [x] Call for applicant registrations
-- [x] Register teams
-- [x] Accept submissions for teams participating in the event
-- [x] Voting for the teams
-- [x] Contact mentors using messaging inbox feature
-
-Sponsor
-- [x] Browse for competitions to potentially sponsor
-- [x] Contact organizers using messaging inbox feature 
 
 ## 🔮Future Scope
-
-For organizers who organize the events, we can add
-- Livestreaming the event
-- Complete announcement of results on the platform itself
-- RSVP for friends and parents
-
-For projects
-- Improve project videos addition
-- Add rich-text description features (since students might not be familiar with markdown) - partially implemented
-
-For students
-- Add a recommendation system to improve the timeline of the user
-- Add general "posts" apart from adding projects
-- Connect local student groups together, allow collaborations, meetups
-
-Mentor access level
-- Add another access level for mentors
-- These voluntary mentors can guide interested students on their projects and interests
-
-
-## ⚙Database Schema
-
-[SQL Schema Diagram](https://drawsql.app/dcodestarbots/diagrams/innov-8)
+Developing Chatbots for various sectors like Universities, Market
 
 ## 🛠Project Setup
-
-1. Clone the GitHub repo
-   
-   $ git clone https://github.com/saRvaGnyA/Innov-8.git
-   
-2. Create a new virtual environment inside the cloned directory, activate the virtual environment and install all the dependencies specified in the `requirements.txt` file
-   
-   $ cd Innov-8
-   $ virtualenv venv
-   $ venv/scripts/activate
-   $ pip install -r requirements.txt
-   
-
+Clone the GitHub repo git clone https://github.com/ananya-bangera/BOTtleneck
+  
 ## 💻Usage
 
 Once the required setup and installation is completed, you can start developing and running the project.
